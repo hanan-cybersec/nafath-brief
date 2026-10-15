@@ -22,12 +22,21 @@ Android runtime permissions protect sensitive device resources by requiring user
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH), standardized in RFC 8484, transmits DNS queries and responses through encrypted HTTPS connections. This reduces exposure of DNS traffic to interception or modification while in transit. For a national digital identity service, DoH can strengthen the privacy of domain-name resolution. However, it does not encrypt all network traffic or guarantee that a website is trustworthy. Administrators must also consider resolver trust, logging practices, and operational visibility.
+
+Resource: RFC 8484 - DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484
 
 
 ## Cybersecurity
+Phishing-resistant authentication prevents attackers from reusing authentication credentials captured through fraudulent websites. It relies on cryptographic mechanisms that bind authentication to the legitimate service. FIDO2/WebAuthn authenticators can provide phishing resistance through verifier-name binding. In contrast, passwords combined with SMS codes or manually entered one-time passwords are not phishing-resistant because attackers can relay those codes. A national digital identity authority should prioritize phishing-resistant authentication for sensitive government services and establish secure account recovery procedures.
+
+Resource: NIST SP 800-63B - Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
 
 
 ## Data
+Oman's Personal Data Protection Law, issued under Royal Decree 6/2022 and amended by Royal Decree 68/2026, establishes requirements for handling personal information. The 2026 amendments clarify the law's scope, exemptions, consent requirements, and automated processing. A national digital identity authority should classify citizen information, apply appropriate security safeguards, establish lawful processing grounds, and define retention procedures. It must also determine which statutory provisions apply to its government functions rather than assuming every processing activity follows identical requirements.
+
+Resource: Royal Decree 68/2026 - Amendment to the Personal Data Protection Law - https://www.mtcit.gov.om/library-3/legislations-policies-8/laws-75/royal-decree-68-2026-amending-some-provisions-of-the-personal-data-protection-law-1481
 
 ## Misconception in My Track
 
