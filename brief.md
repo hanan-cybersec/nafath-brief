@@ -39,5 +39,9 @@ Oman's Personal Data Protection Law, issued under Royal Decree 6/2022 and amende
 Resource: Royal Decree 68/2026 - Amendment to the Personal Data Protection Law - https://www.mtcit.gov.om/library-3/legislations-policies-8/laws-75/royal-decree-68-2026-amending-some-provisions-of-the-personal-data-protection-law-1481
 
 ## Misconception in My Track
+A common misconception in cybersecurity is that enabling any form of multi-factor authentication automatically prevents phishing attacks. This is incorrect because attackers may trick users into entering passwords and one-time codes on fraudulent websites and relay them to the legitimate service. NIST SP 800-63B explains that phishing resistance requires mechanisms such as verifier-name binding, which links authentication to the legitimate service. FIDO2/WebAuthn can provide this protection, whereas manually entered one-time passwords cannot. Therefore, a national digital identity authority should evaluate authentication methods for phishing resistance rather than assuming all MFA methods offer equal protection.
+
+Resource: NIST SP 800-63B - Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
 
 ## Open Question
+How can a national digital identity authority provide secure and accessible account recovery for citizens who lose their phishing-resistant authenticator without introducing weaker authentication methods that attackers could exploit?
